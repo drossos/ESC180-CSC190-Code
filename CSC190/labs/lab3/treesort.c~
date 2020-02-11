@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+   int n=0;
+   int value=0;
+   int rvalue=0;
+   llnode *input_list=NULL;
+
+   while (scanf("%d",&value) != EOF) {
+      n=n+1;
+      llnode_add_to_tail(&input_list,value);
+   }
+   printf("INFO: you entered %d items\n",n);
+   rvalue=llnode_print_from_tail(input_list);
+   if ( !(rvalue==0) ) { printf("ERR: llnode_print returned an error\n"); }
+
+   return 0;
+}
+

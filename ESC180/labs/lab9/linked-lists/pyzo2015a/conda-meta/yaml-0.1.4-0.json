@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "http://repo.continuum.io/pkgs/free/linux-64/",
+  "depends": [],
+  "files": [
+    ".index/yaml-0.1.4-0",
+    "include/yaml.h",
+    "lib/libyaml-0.so.2",
+    "lib/libyaml-0.so.2.0.2",
+    "lib/libyaml.a",
+    "lib/libyaml.la",
+    "lib/libyaml.so",
+    "lib/pkgconfig/yaml-0.1.pc"
+  ],
+  "license": "MIT (http://www.yaml.org/spec/1.2/spec.html)",
+  "link": {
+    "source": "/home/almar/anaconda34/pkgs/yaml-0.1.4-0",
+    "type": "hard-link"
+  },
+  "md5": "6beaf5762f6aa506604a309f76a7a91c",
+  "name": "yaml",
+  "platform": "linux",
+  "requires": [],
+  "size": 210146,
+  "url": "http://repo.continuum.io/pkgs/free/linux-64/yaml-0.1.4-0.tar.bz2",
+  "version": "0.1.4"
+}
